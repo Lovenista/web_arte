@@ -1,8 +1,9 @@
-/*Google font import — Old Standard TT */
+/* Google font importadas */
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Old+Standard+TT:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&family=Noto+Sans+Display:wght@400;500;600&display=swap');
 
 body{
 
@@ -125,19 +126,19 @@ margin-right: 30%;
 }
 
 .display {
-
-    font-family: 'Dancing Script', cursive;
     font-family: 'Old Standard TT', serif;
     font-size: calc(1em + 1vw);
     line-height: 1em;
     padding: 1em;
     margin: 1em;
-    background: #212529;
+    background: #788954;
     box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
 }
 
 /* Parrafos */
-/*Parrafo 1 con información*/
+/*Parrafo 1 con información
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;*/
 
 .container1{
   max-width: 1100px;
@@ -150,6 +151,14 @@ margin-right: 30%;
   color:#fff;
   font-size:16px;
   text-align: justify;
+}
+
+.titulocentrar{
+  text-align: center;
+}
+
+.titulocentrar1{
+  text-align: center;
 }
 
 .g-informacion{
