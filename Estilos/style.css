@@ -145,10 +145,11 @@ margin-right: 30%;
   
 }
 .informacion{
-  background-color: #212529;
-  padding: 50px 0px;
-  color:rgb(202, 202, 202);
-  font-size:18px;
+  background-color: #afb89a;
+  padding: 70px 500px;
+  color:#fff;
+  font-size:16px;
+  text-align: justify;
 }
 
 .g-informacion{
@@ -158,6 +159,7 @@ margin-right: 30%;
 .informacion-txt-1 h2 {
   font-size: 55px;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .imgs img{
