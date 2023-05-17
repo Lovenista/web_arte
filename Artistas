@@ -1,0 +1,241 @@
+Paginas usadas:
+https://fonts.google.com/specimen/Old+Standard+TT
+https://boxicons.com/
+
+
+Contexto del problema: 
+Un grupo de artistas plásticos dedicados a la pintura, escultura, orfebrería, tejido y otras expresiones 
+artísticas, deciden formar una cooperativa llamada “Grupo Cero”. 
+El trabajo cooperativo que hacen les permite tener un taller y una sala de exhibición para sus trabajos. 
+Además de la sala de exhibición de las obras, comparten un pequeño café que les sirve de lugar de 
+reunión para atender a los clientes que solicitan trabajos especiales o que desean comprar alguna de 
+las obras. 
+El tiempo ha pasado y el trabajo incansable de los socios ha empezado a dar sus frutos y ya gozan de 
+una muy buena reputación lo que les permite tener un volumen constante de ventas de las obras. 
+Producto de lo anterior, ha surgido la necesidad de crear una página web para exhibir los trabajos de 
+los artistas y posteriormente quien sabe, implementar una tienda on-line. 
+La encargada de la parte comercial organiza una entretenida reunión en el café con todos los artistas 
+para definir la funcionalidad que ellos necesitan para la página web. 
+Recuerda que tus usuarios son poco diestros con el uso de nuevas tecnologías, sin embargo, hay varios 
+que utilizan tiendas on-line para realizar sus compras de materiales e insumos, por lo cual saben que 
+características les gustaría que su página web presentará y esto se resume de la siguiente forma. 
+
+1. La página web debe tener un menú en la parte superior con el logo de la cooperativa. 
+
+2. En la página principal deben aparecer los productos más destacados en un carrusel de 
+imágenes. 
+
+3. Al hacer clic en una de las imágenes, se debe poder entrar a ver el detalle del objeto 
+(historia, descripción, nombre, precio, técnica usada, etc) y la galería de fotos si es que 
+tiene. Los artículos el menos poseen una foto. 
+
+4. Además de la galería, la página principal deberá tener una opción de búsqueda por nombre 
+del artista o por tipo de arte o por concepto. 
+
+5. También deberá mostrar la cantidad de productos que han sido ingresados por un usuario. 
+
+6. Es necesario tener un formulario de contacto general. 
+
+7. Desde la página principal se puede acceder a los productos por categoría o por artista. 
+8. Los usuarios deberían poder registrarse, sólo es necesario el email, el nombre y el 
+password. 
+
+9. El usuario debería tener la opción de autenticarse en el sitio mediante email y password. 
+
+10. Se debe mostrar si el usuario se ha logueado o no. 
+
+11. El proceso para agregar nuevas obras es el siguiente: 
+
+a. Cada integrante de la cooperativa posee una cuenta creada por el administrador 
+del sitio. 
+b. Una vez que el integrante ingresa al sitio (email y password), puede publicar la obra 
+que quiere vender llenando todos los datos en el formulario dispuesto para esto. 
+c. La obra no se publica en la página hasta que pasa por el visto bueno del 
+administrador, el cual puede rechazar la publicación por mala redacción o faltas de 
+ortografía o porque las imágenes son de mala calidad. 
+
+d. Si el administrador rechaza la publicación, debe informar por qué lo hizo y el 
+integrante de la cooperativa visualizará esta información en el momento en que 
+ingrese a la plataforma. 
+
+12. No se considera aún el proceso de venta directa al público desde la plataforma, sino que 
+sólo la publicación de las obras para ser exhibidas on-line. 
+
+13. Es fundamental que la página sea responsiva y que se adapte tanto a pantallas grandes 
+como a pantallas de dispositivos móviles. 
+
+
+cosas
+
+
+JotapeMc 
+Somos un grupo de artistas plasticos dedicados a las pinturas, esculturas, 
+orfebrería, tejidos y otras expresiones artisticas, los cuales tienen como objetivo
+la demostracion y posterior venta de sus productos, a raiz del crecimiento
+que se comenzo a tener se vieron en la obligacion de crear una pagina web. 
+
+Para lograr este objetivo los distintos artistas se juntaron como organizacion y 
+decidieron crear "grupo cero", la cual tiene como objetivo generar una comunidad 
+y mostrar al publico los distintos productos que se tienen a la venta.
+JotapeMc 
+Imagen
+Andres Fernandez
+42 años
+
+Andres vive en San joaquin desde los 7 años, vive con su padre, Miguel, el cual
+es la principal motivacion de Andres para dedicarse a la pintura, desde pequeño
+le gustaba pintar las cosas que le traia su padre del trabajo, el cual se 
+dedicaba a la venta de diferentes productos escolares ya que tenia un bazar, pero
+lo que mas le gustaba era pintar en lienzo.
+
+Se especializo en la universidad de Chile en matematicas y en sus tiempos libres
+pintaba diferentes cuadros pero solo para amigos, familiares o para si mismo, a los
+27 años entro a la escuela de artes y perfecionó lo que mas le apasionaba, la 
+pintura.
+
+Actualmente es profesor de pintura en una escuela en su comuna y se dedica a vender
+las diferentes obras que a logrado hacer con pasion.
+Imagen
+Imagen
+Imagen
+JotapeMc 
+Imagen
+Martina Hernriquez
+30 años
+
+A Martina desde muy pequeña le gustaba jugar con barro con sus amigos, en la escuela
+en la que estudiaba de pequeña era siempre de los primeros lugares en los 
+concursos de manualidades y le gustaba ir a los talleres que se realizaban en este.
+
+Cuando Martina creció empezo a realizar distintos cursos online y presenciales para
+poder mejorar y poder dedicarse a la venta de productos hechos con greda. Con el 
+tiempo a conodico muchas personas y a mejorado lo suficiente para tener una 
+pequeña tienda en Maipú, lugar donde a vivido toda su vida con sus padres y su
+hermano mayor.
+Imagen
+Imagen
+Imagen
+JotapeMc 
+Imagen
+Juan Carlos Peña
+58 años
+
+Don Juan es una persona muy amable y muy conocido en su barrio, ubicado en La
+Cisterna, lugar donde tiene ubicado su tienda de anillos, collares y pulseras y 
+su pequeño taller, donde se dedicaba a reparar los distintos productos que les
+llevaban sus vecinos, tambien en este lugar daba clases de orfebreria, la cual 
+consiste en el trabajo de distintos metales preciosos para poder hacer joyas y 
+utencilios.
+Imagen
+Imagen
+Imagen
+JotapeMc
+Imagen
+Sofia Palma
+20 años
+
+Sofia se dedica a vender los productos que ella hace en su hogar juntos a su madre,
+estos se basan en animales hechos con lana, algodon, stickers y otros tipos de 
+materiales.
+
+Sofia tambien esta estudiando Ing. Logistica pero su pasion desde muy pequeña a 
+sido tejer a mano, ya que veia a su madre hacer gorros, chalecos, calcetines, entre 
+otros, para sus hermanos mayores ya que viven en Concepcion.
+Imagen
+Imagen
+Imagen
+JotapeMc 
+Imagen
+Camilo Bustamante
+38 años
+
+Camilo es padre de 3 hijos, esta casado con julieta, viven todos juntos en Cerrillos
+lugar donde trabaja como pastelero en una panaderia en su barrio, lleva 7 años
+en su actual trabajo y es muy feliz ahi, estudio contabilidad pero su sueño
+siempre fue hacer pasteles profesionales, para esto esta estudiando diferentes
+cursos de pasteleria para asi poder mejorar su productos y poder poner su propia
+pasteleria.
+Imagen
+Imagen
+Imagen
+Awitadeuwu 
+Tipo de archivo adjunto: archive
+web_artistas.rar
+1.86 MB
+JotapeMc 
+<div>
+    <img src="img/collar (1).jpg" alt="collar">
+    <div class="informacion">
+        <p>Producto 1</p>
+        <p class="precio">$199<span>.99</span></p>
+        <button>Comprar</button>
+    </div>
+</div>
+JotapeMc 
+Imagen
+JotapeMc 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compra</title>
+    <a class="nav-link" href="pag_principal.html">Atras</a>
+</head>
+<p></p>
+<body>
+
+
+    <div>
+        <img src="imagen 1" alt="imagen 1" width="150" height="150">
+        <div class="informacion">
+            <p class="precio">$15000</p>
+
+        <img src="imagen 2" alt="imagen 2" width="150" height="150">
+        <div class="informacion">
+            <p class="precio">$24000</p>
+
+        <img src="imagen 3" alt="imagen 3" width="150" height="150">
+        <div class="informacion">
+            <p class="precio">$16000</p>
+            <button>pagar</button>
+        </div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compra</title>
+    <a class="nav-link" href="pag_principal.html">Atras</a>
+</head>
+<p></p>
+<body>
+
+
+    <div>
+        <img src="imagen 1" alt="imagen 1" width="150" height="150">
+        <div class="informacion">
+            <p class="precio">$15000</p>
+
+        <img src="imagen 2" alt="imagen 2" width="150" height="150">
+        <div class="informacion">
+            <p class="precio">$24000</p>
+
+        <img src="imagen 3" alt="imagen 3" width="150" height="150">
+        <div class="informacion">
+            <p class="precio">$16000</p>
+
+        <p class="paragraph">Total a pagar = $55.000 </p>
+
+            <button>pagar</button>
+        </div>
+    </div>
+
+</body>
+</html>
