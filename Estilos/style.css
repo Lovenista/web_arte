@@ -22,13 +22,18 @@ html{
     }
 
 }
-
+/*CABECERA LOGO*/
 .cabecera{
   padding: 20px 20px;
   margin: 0 auto;
   background: #fff;
   color: rgb(63, 63, 63);
 }
+
+.img-container {
+  text-align: center;
+}
+
 
 .title2 {
   text-align: center;

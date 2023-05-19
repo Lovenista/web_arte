@@ -4,14 +4,28 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #ffffff;
+	background-color: #fff;
 }
+/*IMAGEN DE CABECERA*/
+.cabecera{
+	padding: 20px 20px;
+	margin: 0 auto;
+	background: #fff;
+	border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .img-container {
+	text-align: center;
+  }
+  
+/*FORMULARIO*/
 
 main {
 	max-width: 800px;
 	width: 90%;
 	margin: auto;
 	padding: 40px;
+	background:URL(../img/059.jpg);
 }
 
 .formulario {
