@@ -1,416 +1,223 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de compra</title>
-    <a class="nav-link" href="pag_principal.html">Atras</a>
-</head>
-<p></p>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GRUPO CERO</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Estilos/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+  </head>
+  <body>
 
 
-    <div class="container justify-content-center align-items-center">
-        <img src="imagen 1" alt="imagen 1" width="150" height="150">
-        <div class="informacion">
-            <p class="precio">$15000</p>
+  <!-- Contenido 1 -->
+<section class="cabecera">
+  <div class="img-container">
+  <a class="" href="pag_principal.html">
+    <img src="img/03.png" alt="" width="300" height="100%"/></a>
+  </div>
+</section>
 
-        <img src="imagen 2" alt="imagen 2" width="150" height="150">
-        <div class="informacion">
-            <p class="precio">$24000</p>
+    <!-- Bootstrap Navbar responsive -->
+  <header id="header"> 
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="menu col-lg-8 col-md-7 collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0">
 
-        <img src="imagen 3" alt="imagen 3" width="150" height="150">
-        <div class="informacion">
-            <p class="precio">$16000</p>
-
-        <p class="paragraph">Total a pagar = $55.000 </p>
-
-            <button>pagar</button>
-        </div>
-    </div>
-
-</body>
-</html>
-
---FB--
-
-<header id="header">
-        
-          
-
-
-
-    <nav class="header-nav">
-        <div class="container">
-            <div class="row">
-            
-             
-             <div class="hidden-lg-up text-xs-left mobile">
-    <div class="pull-xs-left hidden-lg-up" id="menu-icon">
-                    <i class="material-icons menu-open"></i>
-                    <i class="material-icons menu-close"></i>			  
-                </div>  
-                <div id="mobile_top_menu_wrapper" class="row hidden-lg-up" style="display:none;">
-                    <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
-    
-                        <div class="js-top-menu-bottom">
-                            <div id="_mobile_currency_selector"></div>
-                            <div id="_mobile_language_selector"></div>
-                            <div id="_mobile_contact_link"></div>
-                            <div id="_mobile_user_info"></div>
-                        </div>
-                    </div>          
-                                 
-                
-                
-                
-                
-                
-                <div class="clearfix"></div>
-            </div>
-        
-                <div class="left-nav">
-                    <div id="_desktop_language_selector">
-      <div class="language-selector-wrapper">
-        <!--<span class="hidden-md-up">Language:</span>-->
-        <div class="language-selector dropdown js-dropdown">
-          <span class="expand-more hidden-md-down" data-toggle="dropdown">Español</span>
-          <a data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="hidden-md-down">
-            
-            <i class="material-icons"></i>
-          </a>
-          <ul class="dropdown-menu hidden-md-down">
-                      <li>
-                <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=1" class="dropdown-item">English</a>
-              </li>
-                      <li>
-                <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=2" class="dropdown-item">اللغة العربية</a>
-              </li>
-                      <li>
-                <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=3" class="dropdown-item">Français</a>
-              </li>
-                      <li class="current">
-                <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4" class="dropdown-item">Español</a>
-              </li>
-                      <li>
-                <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=5" class="dropdown-item">Italiano</a>
-              </li>
-                  </ul>
-          <select class="link hidden-lg-up">
-                      <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=1">English</option>
-                      <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=2">اللغة العربية</option>
-                      <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=3">Français</option>
-                      <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4" selected="selected">Español</option>
-                      <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=5">Italiano</option>
-                  </select>
-        </div>
-      </div>
-    </div>
-    
-    <div id="_desktop_currency_selector">
-      <div class="currency-selector dropdown js-dropdown">
-        <!--<span>Currency:</span>-->
-         <span class="expand-more _gray-darker hidden-md-down" data-toggle="dropdown">USD</span>
-        <a data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="hidden-md-down">
-    
-          <i class="material-icons"></i>
-        </a>
-        <ul class="dropdown-menu hidden-md-down">
-                  <li>
-              <a title="euro" rel="nofollow" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4&amp;SubmitCurrency=1&amp;id_currency=2" class="dropdown-item">EUR</a>
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
             </li>
-                  <li class="current">
-              <a title="dólar estadounidense" rel="nofollow" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4&amp;SubmitCurrency=1&amp;id_currency=1" class="dropdown-item">USD</a>
-            </li>
+
+            <li class="nav-item dropdown" id="li1">
+              <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Artistas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="andres.html">Andres Fernandez</a></li>
+                <li><a class="dropdown-item" href="martina.html">Martina Hernriquez</a></li>
+                <li><a class="dropdown-item" href="juan.html">Juan Carlos Peña</a></li>
+                <li><a class="dropdown-item" href="sofia.html">Sofia Palma</a></li>
+                <li><a class="dropdown-item" href="camilo.html">Camilo Bustamante</a></li>
               </ul>
-        <select class="link hidden-lg-up">
-                  <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4&amp;SubmitCurrency=1&amp;id_currency=2">EUR</option>
-                  <option value="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4&amp;SubmitCurrency=1&amp;id_currency=1" selected="selected">USD</option>
-              </select>
-      </div>
-    </div><div id="_desktop_user_info">
-      <div class="user-info">
-              <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?controller=my-account" title="Log in to your customer account" rel="nofollow">
+            </li>
+            <li class="nav-item dropdown" id="li1">
+              <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="orfebreria.html">Orfebrería</a></li>
+                <li><a class="dropdown-item" href="pintura.html">Pintura</a></li>
+                <li><a class="dropdown-item" href="escultura.html">Escultura</a></li>
+                <li><a class="dropdown-item" href="tejido.html">Tejido</a></li>
+                <li><a class="dropdown-item" href="respoteria.html">Reposteria</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="formulario.html">Contacto</a>
+            </li>
             
-            <span class="hidden-sm-down"><i class="material-icons"></i></span><span>sign in</span>
-          </a>
-          </div>
-    </div>
-    <div id="ctcmsblock">
-      <div class="cmsblock slide">
-    <ul><li><a href="#"><i class="material-icons phone"></i>contact</a></li>
-    <li><a href="#"><i class="material-icons sitemap"></i>sitemap</a></li>
-    <li><a href="#"><i class="material-icons bookmark"></i>bookmark</a></li>
-    </ul></div>
-    </div>
-    
-                </div>
-                
-                <div class="right-nav">
-               
-                    <!-- Block search module TOP -->
-    <div id="search_widget" class="col-lg-4 col-md-5 col-sm-12 search-widget" data-search-controller-url="//capricathemes.com/prestashop/PRS05/PRS050093/index.php?controller=search">
-    <span class="search_button"><i class="material-icons search"></i><i class="material-icons cross"></i><span>Búsqueda</span></span>
-    <div class="searchtoggle">
-        <form method="get" action="//capricathemes.com/prestashop/PRS05/PRS050093/index.php?controller=search">
-            <input type="hidden" name="controller" value="search">
-            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="s" value="" placeholder="Search here..." class="ui-autocomplete-input" autocomplete="off">
-            <button type="submit">
-                <i class="material-icons search"></i>
-            </button>
-        </form>
+          </ul>
         </div>
-    </div>
-    <!-- /Block search module TOP -->
-    <div id="desktop_cart">
-      <div class="blockcart cart-preview inactive" data-refresh-url="//capricathemes.com/prestashop/PRS05/PRS050093/index.php?fc=module&amp;module=ps_shoppingcart&amp;controller=ajax&amp;id_lang=4">
-        <div class="header blockcart-header dropdown js-dropdown">
-             
-                <a rel="nofollow" href="//capricathemes.com/prestashop/PRS05/PRS050093/index.php?controller=cart&amp;action=show"> 
-                    <i class="material-icons shopping-cart"></i>
-                    <span class="hidden-md-down title">Carrito</span>
-                    <span class="cart-products-count">0</span>
-                    <!--<span class="hidden-md-down item">Item(s) - </span>
-                    <span class="hidden-md-down value">0,00 $</span>-->
-                </a>
-             
-            
-              </div>
-      </div>
-    </div>
-    
-                    <i class="material-icons more-icon"></i>
-                    
-                </div>
-            
-            
-            
-            </div>
-        </div>
-    </nav>
-    
-    
-    
-        <div class="header-top hidden-md-down">
-            <div class="container">
-            <div class="row">
-               
-                 <div class="top-logo" id="_mobile_logo"></div>     
-            <div class="main-logo">
-    
-                <div class="header_logo" id="_desktop_logo">
-                    <a href="https://capricathemes.com/prestashop/PRS05/PRS050093/">
-                    <img class="logo img-responsive" src="/prestashop/PRS05/PRS050093/img/art-demo-store-logo-1519024403.jpg" alt="Art Demo Store">
-                    </a>
-                </div>
-            </div>
-            
-    <div id="ctcmsblock">
-      <div class="cmsblock slide">
-    <ul><li><a href="#"><i class="material-icons phone"></i>contact</a></li>
-    <li><a href="#"><i class="material-icons sitemap"></i>sitemap</a></li>
-    <li><a href="#"><i class="material-icons bookmark"></i>bookmark</a></li>
-    </ul></div>
-    </div>
-    
-             <div class="pull-xs-right" id="_mobile_cart"></div>
-            
-                    </div>
-                    </div>
-                    
-            </div>
-     
-    
-        <div class="container">
-            <div class="row">
-                
-    
-    <div class="menu col-lg-8 col-md-7 js-top-menu position-static hidden-sm-down" id="_desktop_top_menu">
-        
-              <ul class="top-menu" id="top-menu" data-depth="0">
-                        <li class="category" id="category-3">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=3&amp;controller=category&amp;id_lang=4" data-depth="0">
-                                      
-                                        <span class="pull-xs-right hidden-lg-up">
-                        <span data-target="#top_sub_menu_67704" data-toggle="collapse" class="navbar-toggler collapse-icons">
-                          <i class="material-icons add"></i>
-                          <i class="material-icons remove"></i>
-                        </span>
-                      </span>
-                                    Gallery
-                  </a>
-                                <div class="popover sub-menu js-sub-menu collapse" id="top_sub_menu_67704" style="display: none;">
-                    
-              <ul class="top-menu" data-depth="1">
-                        <li class="category" id="category-4">
-                              <a class="dropdown-item dropdown-submenu" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=4&amp;controller=category&amp;id_lang=4" data-depth="1">
-                                      
-                                        <span class="pull-xs-right hidden-lg-up">
-                        <span data-target="#top_sub_menu_44609" data-toggle="collapse" class="navbar-toggler collapse-icons">
-                          <i class="material-icons add"></i>
-                          <i class="material-icons remove"></i>
-                        </span>
-                      </span>
-                                    Furniture
-                  </a>
-                                <div class="collapse" id="top_sub_menu_44609">
-                    
-              <ul class="top-menu" data-depth="2">
-                        <li class="category" id="category-5">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=5&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    seating &amp; stools
-                  </a>
-                              </li>
-                        <li class="category" id="category-6">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=6&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    cabinetry
-                  </a>
-                              </li>
-                        <li class="category" id="category-7">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=7&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    tables, desks, trolleys
-                  </a>
-                              </li>
-                  </ul>
-        
-                    <div class="menu-banners">
-                                      </div>
-                  </div>
-                              </li>
-                        <li class="category" id="category-8">
-                              <a class="dropdown-item dropdown-submenu" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=8&amp;controller=category&amp;id_lang=4" data-depth="1">
-                                      
-                                        <span class="pull-xs-right hidden-lg-up">
-                        <span data-target="#top_sub_menu_83447" data-toggle="collapse" class="navbar-toggler collapse-icons">
-                          <i class="material-icons add"></i>
-                          <i class="material-icons remove"></i>
-                        </span>
-                      </span>
-                                    lighting
-                  </a>
-                                <div class="collapse" id="top_sub_menu_83447">
-                    
-              <ul class="top-menu" data-depth="2">
-                        <li class="category" id="category-9">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=9&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    hanging &amp; wall lights
-                  </a>
-                              </li>
-                        <li class="category" id="category-10">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=10&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    industrial lighting
-                  </a>
-                              </li>
-                        <li class="category" id="category-11">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=11&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    table &amp; floor lamps
-                  </a>
-                              </li>
-                  </ul>
-        
-                    <div class="menu-banners">
-                                      </div>
-                  </div>
-                              </li>
-                        <li class="category" id="category-16">
-                              <a class="dropdown-item dropdown-submenu" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=16&amp;controller=category&amp;id_lang=4" data-depth="1">
-                                      
-                                        <span class="pull-xs-right hidden-lg-up">
-                        <span data-target="#top_sub_menu_53649" data-toggle="collapse" class="navbar-toggler collapse-icons">
-                          <i class="material-icons add"></i>
-                          <i class="material-icons remove"></i>
-                        </span>
-                      </span>
-                                    Accessories
-                  </a>
-                                <div class="collapse" id="top_sub_menu_53649">
-                    
-              <ul class="top-menu" data-depth="2">
-                        <li class="category" id="category-17">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=17&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    metal items
-                  </a>
-                              </li>
-                        <li class="category" id="category-18">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=18&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    religious items
-                  </a>
-                              </li>
-                        <li class="category" id="category-19">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=19&amp;controller=category&amp;id_lang=4" data-depth="2">
-                                    art, charts, posters
-                  </a>
-                              </li>
-                  </ul>
-        
-                    <div class="menu-banners">
-                                      </div>
-                  </div>
-                              </li>
-                  </ul>
-        
-                    <div class="menu-banners">
-                                          <div class="menu-banner">
-                            <img src="https://capricathemes.com/prestashop/PRS05/PRS050093/img/c/3-0_thumb.jpg" alt="">
-                        </div>
-                                      </div>
-                  </div>
-                              </li>
-                        <li class="category" id="category-12">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=12&amp;controller=category&amp;id_lang=4" data-depth="0">
-                                    Interiors
-                  </a>
-                              </li>
-                        <li class="category current " id="category-13">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4" data-depth="0">
-                                    architectural &amp; salvage
-                  </a>
-                              </li>
-                        <li class="category" id="category-14">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=14&amp;controller=category&amp;id_lang=4" data-depth="0">
-                                    antiques
-                  </a>
-                              </li>
-                        <li class="category" id="category-15">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=15&amp;controller=category&amp;id_lang=4" data-depth="0">
-                                    folk art
-                  </a>
-                              </li>
-                        <li class="cms-page" id="cms-page-4">
-                              <a class="dropdown-item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_cms=4&amp;controller=cms&amp;id_lang=4" data-depth="0">
-                                    About us
-                  </a>
-                              </li>
-                  </ul>
-        
-        <div class="clearfix"></div>
-    </div>
-    
-            </div>
-         </div>        
-            
-            <nav data-depth="2" class="breadcrumb hidden-sm-down">
-       <div class="container">
-      <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
-              
-          <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-            <a itemprop="item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php">
-              <span itemprop="name">Inicio</span>
-            </a>
-            <meta itemprop="position" content="1">
-          </li>
-          
-              
-          <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-            <a itemprop="item" href="https://capricathemes.com/prestashop/PRS05/PRS050093/index.php?id_category=13&amp;controller=category&amp;id_lang=4">
-              <span itemprop="name">architectural &amp; salvage</span>
-            </a>
-            <meta itemprop="position" content="2">
-          </li>
-          
-          </ol>
       </div>
     </nav>
-          
-          </header>
+  </header>
+
+<!-- ARTES -->
+<section class="contenido">
+    <div class="mostrador" id="mostrador">
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/018.jpg" alt="">
+                </div>
+                <p class="descripcion">PINTURA 1</p>
+                <span class="precio">$65.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/2.png" alt="">
+                </div>
+                <p class="descripcion" id>PINTURA 2 </p>
+                <span class="precio">$48.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/3.png" alt="">
+                </div>
+                <p class="descripcion">PINTURA 3
+                </p>
+                <span class="precio">$115.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/4.png" alt="">
+                </div>
+                <p class="descripcion">PINTURA 4</p>
+                <span class="precio">$145.000</span>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/5.png" alt="">
+                </div>
+                <p class="descripcion">PINTURA 5</p>
+                <span class="precio">$ 125.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/6.png" alt="">
+                </div>
+                <p class="descripcion">PINTURA 6</p>
+                <span class="precio">$ 200.000</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/7.png" alt="">
+                </div>
+                <p class="descripcion">PINTURA 7</p>
+                <span class="precio">$ 62.500</span>
+            </div>
+            <div class="item" onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="img/8.png" alt="">
+                </div>
+                <p class="descripcion">PINTURA 8</p>
+                <span class="precio">$ 111.800</span>
+            </div>
+        </div> 
+    </div>
+    <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+    <div class="seleccion" id="seleccion">
+        <div class="cerrar" onclick="cerrar()">
+            &#x2715
+        </div>
+        <div class="info">
+           <img src="" alt="" id="img">
+            <h2 id="modelo"></h2>
+            <p id="descripcion">""</p>
+
+            <span class="precio" id="precio">""</span>      
+
+            <div class="fila">
+                <button>AGREGAR AL CARRITO</button>                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Footer hecho con boostrap-->
+<div class="container-fluid">
+  <div class="row p-5 pb-2 bg-dark text-white">
+<!--Col xs y col md 6 es para pantallas medianas o grandes-->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h3">Código AV</p>          
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Cursos</p>
+        <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">React 35</a>
+        </div>
+        <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">React native</a>   0
+        </div>
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Javascript</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Bootstrap</a>
+        </div> 
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Links</p>
+        <div class="mb-2"><!--Margen-->
+          <a class="text-secondary text-decoration-none" href="#">Terms & Conditions</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+          <a class="text-secondary text-decoration-none" href="#">Politicas de privacidad</a>
+        </div>     
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Contacto</p>       
+          <div class="mb-2"><!--Margen-->
+              <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+          </div>    
+          <div class="mb-2"><!--Margen-->
+              <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+          </div>  
+      </div>
+      <div class="col-xs-12 pt-4">
+          <p class="text-white text-center">Copyrigth - All rights reserved 2022</p>
+      </div>
+  </div>
+</div>
+    <!-- JS -->
+    <script src="js/productos.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  </body>
+</html>
