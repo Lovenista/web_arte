@@ -57,13 +57,21 @@
                 <li><a class="dropdown-item" href="camilo.html">Camilo Bustamante</a></li>
               </ul>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Compra</a>
+            <li class="nav-item dropdown" id="li1">
+              <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="orfebreria.html">Orfebrería</a></li>
+                <li><a class="dropdown-item" href="pintura.html">Pintura</a></li>
+                <li><a class="dropdown-item" href="escultura.html">Escultura</a></li>
+                <li><a class="dropdown-item" href="tejido.html">Tejido</a></li>
+                <li><a class="dropdown-item" href="respoteria.html">Reposteria</a></li>
+              </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="formulario.html">Contacto</a>
             </li>
             
           </ul>
@@ -89,7 +97,7 @@
       <div class="carousel-item">
         <img src="img/014.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-flex justify-content-center align-items-center">
-          <h1 class="display">Collar más vendido de la semana.</h1>
+          <h1 class="display col-lg-6 col-md-10">Collar más vendido de la semana.</h1>
         </div>
       </div>
       <div class="carousel-item">
@@ -108,16 +116,13 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-<section class="informacion">
-  
-  <!-- Primer parrafo -->
-  <div class="container1">
-    <div class="g-informacion">
-      <div class="informacion-text-1">
-        <h2 class="titulocentrar1">¿Quiénes somos?</h2>
-        <p>
-          <h5 class="titulocentrar">¡Bienvenidos al mundo del arte plástico!</h5><br>
+ <!-- Contenido 1 -->
+  <section class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 clas="text-warning text-uppercase h6"><br><br>¿Quiénes somos?</h2>
+        <h3 class="text-capitalize">¡Bienvenidos al mundo del arte plástico!</h3>
+        <p class="text-muted">
           Somos un grupo de talentosos artistas dedicados a diferentes disciplinas, 
           como escultura, orfebrería, tejidos y pintura. <br>
           Nuestro objetivo es exhibir y vender nuestras creaciones,
@@ -128,80 +133,26 @@
           Cada artista tiene su sección dedicada en el sitio, donde podrás conocer más sobre ellos y su trayectoria artística. 
           Contáctanos si tienes preguntas o estás interesado en colaborar. Además, mantente actualizado a
           través de nuestro blog con noticias sobre eventos, exposiciones y lanzamientos.<br><br>
-          <h5 class="titulocentrar">¡Te invitamos a disfrutar y 
-          dejarte inspirar por la creatividad de nuestros talentosos artistas!</h5>
-        </p>
+          <h3 class="text-capitalize">¡Te invitamos a disfrutar <br>y 
+            dejarte inspirar por la creatividad de nuestros <br>talentosos artistas!<h3>
+
         <a href="productos.html" class="btn-1">Nuestras obras</a>
-
+        </p>
       </div>
-      <div class="imgs">
-        <img src="img/013.jpg" alt="">
-      </div>
+      <img src="img/separador2.png" alt=""/>
     </div>
-  </div>
+    </section>
 
-</section>
-
-
-   <!-- Contenido 1 
-
-<div class="contenedor">
-  <img class="imagen" src="img/024.png" alt=""/>
-  <div class="textos">
-    <h2>Titulo</h2>
-    <p>Descripción</p>
-  </div>
- 
-</div>
-
-<section class="content sau">
-  <img class="imagen" src="img/024.png" alt=""/>
-  <div class="container title1">
-    <h1>¿Quienes somos?</h1>
-    <p class="paragraph">
-      Somos un grupo de artistas plasticos dedicados a las pinturas, esculturas, 
-      orfebrería, tejidos y otras expresiones artisticas, los cuales tienen como objetivo
-      la demostracion y posterior venta de sus productos, a raiz del crecimiento
-      que se comenzo a tener se vieron en la obligacion de crear una pagina web. 
-      
-      Para lograr este objetivo los distintos artistas se juntaron como organizacion y 
-      decidieron crear "grupo cero", la cual tiene como objetivo generar una comunidad 
-      y mostrar al publico los distintos productos que se tienen a la venta.
-
-    </p>
-
-  </div>
-</section>
-
-<section class="content sau">
-    <div class="container">
-      <h1 class="title1">¿Quienes somos?</h1>
-      <p class="paragraph">
-        Somos un grupo de artistas plasticos dedicados a las pinturas, esculturas, 
-        orfebrería, tejidos y otras expresiones artisticas, los cuales tienen como objetivo
-        la demostracion y posterior venta de sus productos, a raiz del crecimiento
-        que se comenzo a tener se vieron en la obligacion de crear una pagina web. 
-        
-        Para lograr este objetivo los distintos artistas se juntaron como organizacion y 
-        decidieron crear "grupo cero", la cual tiene como objetivo generar una comunidad 
-        y mostrar al publico los distintos productos que se tienen a la venta.
-
-      </p>
-
-    </div>
-
-  </section>-->
-
-           <!-- Tarjetas-->
+<!-- TARJETAS -->
            <section class="container">
-            <div class="row">
+            <div class="row justify-content-md-center">
               <div class="col-12 text-center">
                 <h2 class="text-warning text-uppercase h6">Destacados</h2>
                 <h3 class="text-capitalize">Algunos de nuestros artistas</h3>
               </div>
 
               <!--Tarjeta 1-->
-              <article class="col-4 card-effect">
+              <article class="col-md-6 col-lg-4 card-effect">
                 <div class="card">
                   <img src="img/07.jpg" alt="Raiting" class="card-img card-img-filter"/>
                   <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -215,7 +166,7 @@
               </article>
 
               <!--Tarjeta 2-->
-              <article class="col-4 card-effect">
+              <article class="col-md-6 col-lg-4 card-effect">
                 <div class="card">
                   <img src="img/08.jpg" alt="Raiting" class="card-img card-img-filter"/>
                   <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -231,7 +182,7 @@
 
               
               <!--Tarjeta 3-->
-              <article class="col-4 card-effect">
+              <article class="col-md-6 col-lg-4 card-effect mt-md-4 mt-lg-0">
                 <div class="card">
                   <img src="img/09.jpg" alt="Raiting" class="card-img card-img-filter"/>
                   <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
@@ -244,18 +195,24 @@
                   </div>
                 </div>
               </article>
+              <img src="img/separador2.png" alt=""/>
             </div>
          </section>
           <!-- Comentarios -->
-      <section class="comments">
+        <section class="comments"> 
+        
         <div class="container">
           <div class="row">
-          <blockquote class="col-12 text-white text-center">
-            <img src="img/057.png" class="img-thumbnail" alt="Marcela Panza" class="commets__img"/>
+          <blockquote class="col-12 text-dark text-center">
+            <br>
+            <br>
+            <img src="img/057.png" alt="Marcella Panza"  class="comments__img"/>
+            <br>
+            <br>
             <p>Llevo mucho tiempo siguiendo a los artistas de esta página, 
               estoy muy agradecida que tengan una web donde poder ver sus productos y llegar con más fácilidad a ellos.</p>
-              <footer class="blockquote-footer text-white">
-                <cite>Marcela Panza</cite>
+              <footer class="blockquote-footer text-grey">
+                <cite>Marcella Panza</cite>
               </footer>
 
           </blockquote>
@@ -282,56 +239,60 @@
 </div>
 </section>
 
-  <footer class="bg-dark text-white">
-    <div class="container">
-      <nav class="row">
-        <!--logo-->
-        <a href="pag_principal.html" class="col-3 text-reset text-uppercase d-flex align-items-center">
-        <img src="img/03.png" alt="" class="img-logo mr-2"></a>
-        <!--logo-->
-        <ul class="col-3 list-unstyled">
-          <li class="font-wight-bold text-uppercase">Resources</li>
-          <li><a href="#" class="text-reset">Link 1</a></li>
-          <li><a href="#" class="text-reset">Link 2</a></li>
-          <li><a href="#" class="text-reset">Link 3</a></li>
-        </ul>
-        <!--logo-->
-        <ul class="col-3 list-unstyled">
-          <li class="font-wight-bold text-uppercase">Quick links</li>
-          <li><a href="#" class="text-reset">Link 1</a></li>
-          <li><a href="#" class="text-reset">Link 2</a></li>
-          <li><a href="#" class="text-reset">Link 3</a></li>
-        </ul>
-        <!--social-->
-        <ul class="col-3 list-unstyled">
-          <li class="font-wight-bold text-uppercase">Quick links</li>
-          <li>
-            <!--FB-->
-            <a href="#" class="text-reset">
-              <i class="bi bi-facebook"></i></a>
-            <!--Insta-->
-            <a href="#" class="text-reset">
-              <i class="bi bi-instagram"></i></a>
-            <!--TW-->
-            <a href="#" class="text-reset">
-              <i class="bi bi-twitter"></i></a>
-            <!--Whats-->
-            <a href="#" class="text-reset">
-              <i class="bi bi-whatsapp"></i></a>
-          
-          </li>
+<!--Footer hecho con boostrap-->
+<div class="container-fluid">
+  <div class="row p-5 pb-2 bg-dark text-white">
+<!--Col xs y col md 6 es para pantallas medianas o grandes-->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h3">Código AV</p>          
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Cursos</p>
+        <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">React 35</a>
+        </div>
+        <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">React native</a>   0
+        </div>
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Javascript</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Bootstrap</a>
+        </div> 
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Links</p>
+        <div class="mb-2"><!--Margen-->
+          <a class="text-secondary text-decoration-none" href="#">Terms & Conditions</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+          <a class="text-secondary text-decoration-none" href="#">Politicas de privacidad</a>
+        </div>     
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Contacto</p>       
+          <div class="mb-2"><!--Margen-->
+              <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+          </div>    
+          <div class="mb-2"><!--Margen-->
+              <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+          </div>  
+      </div>
+      <div class="col-xs-12 pt-4">
+          <p class="text-white text-center">Copyrigth - All rights reserved 2022</p>
+      </div>
+  </div>
+</div>
 
-        </ul>
-
-      </nav>
-    </div>
-
-  </footer>
-
-
-
-    <!-- Bootstrap -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
                 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
   </body>
 </html>
