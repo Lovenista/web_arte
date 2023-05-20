@@ -20,25 +20,28 @@
 
   </head>
   <body>
+    <div  class="container col-xs-12 col-md-6 col-lg-3 d-flex align-items-center flex-column ">
+      <a class="" href="pag_principal.html">
+        <img src="img/029.jpg" alt=""/></a>
+    </div>
 
-    <!-- Bootstrap Navbar -->
-  <header class="header"> 
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-light">
+      <!-- Bootstrap Navbar responsive -->
+  
+    <header id="header"> 
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand pt-4 hidden-lg-up mx-auto" href="#">
-            <img src="img/03.png" alt="" width="95" height="80"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
+          <div class="menu col-lg-8 col-md-7 collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0">
   
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active " aria-current="page" href="pag_principal.html">Home</a>
               </li>
   
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item dropdown" id="li1">
+                <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Artistas
                 </a>
                 <ul class="dropdown-menu">
@@ -49,79 +52,146 @@
                   <li><a class="dropdown-item" href="camilo.html">Camilo Bustamante</a></li>
                 </ul>
               </li>
-              
-            </ul>
-
-           <ul class="navbar-nav ms-auto">             
-               <li class="nav-item">
-                <a class="nav-link" href="#">Compra</a>
+              <li class="nav-item dropdown" id="li1">
+                <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="orfebreria.html">Orfebrería</a></li>
+                  <li><a class="dropdown-item" href="pintura.html">Pintura</a></li>
+                  <li><a class="dropdown-item" href="escultura.html">Escultura</a></li>
+                  <li><a class="dropdown-item" href="tejido.html">Tejido</a></li>
+                  <li><a class="dropdown-item" href="reposteria.html">Reposteria</a></li>
+                </ul>
               </li>
   
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="formulario.html">Contacto</a>
               </li>
+              
             </ul>
           </div>
         </div>
       </nav>
-  </header>
+    </header>
+  <div class="about">
+    <img src="img/025.jpg" alt="Andres">
+    <div class="about-info">
+      <h2>UN POCO SOBRE MARTINA</h2>
+      <div class="divider"></div>
+      <p> 
+        Martina, una joven de 30 años, descubrió su amor por el arte y la creatividad 
+        jugando con barro desde temprana edad. Su talento se hizo evidente al destacarse 
+        constantemente en los concursos de manualidades de la escuela, demostrando su pasión 
+        por crear objetos con sus propias manos. Buscando oportunidades para crecer, Martina 
+        se embarcó en cursos en línea y presenciales para perfeccionar sus habilidades 
+        en el trabajo con greda, un material que le permitía expresar su arte de manera única.<br><br>
 
-  <!-- Buscador -->
-<div class="container mt-5"></div>
-<h1>Buscador</h1>
-<input type="text" id="formulario" class="form-control my-2">
-<button class="btn btn-info mb-2" id="boton">Buscar</button>
-<ul id="resultado">
-    <li>asasasdasd</li>
-</ul>
+        Con el tiempo, Martina ganó reconocimiento y estableció conexiones 
+        con otras personas interesadas en su trabajo. Esto la impulsó a abrir
+         una pequeña tienda en Maipú, su hogar de toda la vida junto a su familia. 
+         Su tienda se convirtió en un espacio acogedor lleno de piezas únicas que 
+         reflejaban la belleza y la originalidad de su talento.<br><br>
+        
+        Martina encontró éxito y también una satisfacción personal al ver cómo sus creaciones 
+        alegraban y enriquecían la vida de sus clientes. Cada pieza que crea transmite su amor 
+        por el arte y su conexión con la greda como material artístico.<br><br>
+        
+        La historia de Martina es un testimonio inspirador del poder de perseguir 
+        los sueños y convertir la pasión en una profesión. A través de su trabajo, 
+        ella demuestra que es posible encontrar felicidad y éxito siguiendo el camino 
+        del arte y la creatividad. Su pequeña tienda en Maipú es más que un lugar de 
+        venta de productos; es un testimonio del poder transformador del arte y una 
+        inspiración para aquellos que desean expresar su propio espíritu creativo.
+        <br></p>    
+    </div>
+  </div>
+
+  <section class="container">
+    <div class="row justify-content-md-center">
+      <img src="img/separador2.png" alt=""/>
+      <div class="col-12 text-center">
+        <h2 class="text-warning text-uppercase h6">ESCULTURAS</h2>
+        <h3 class="text-capitalize">Taller</h3>
+      </div>
+    </div>
+ </section>
+
+<section class="photos">
+  <article class="gallery">
+
+    <div class="img-a">
+      <img src="img/mar4.jpg"/>
+    </div> 
+    <div class="img-b">
+      <img src="img/mar2.jpg"/>
+    </div> 
+    <div class="img-c">
+      <img src="img/mar1.jpg"/>
+    </div> 
+    <div class="img-d">
+      <img src="img/mar3.jpg"/>
+    </div> 
+    <div class="img-e">
+      <img src="img/mar6.jpg"/>
+    </div> 
+    <div class="img-f">
+      <img src="img/mar5.jpg"/>
+    </div> 
+  </article>
+</section>
+
+<br>
+<br>
+
+<!--Footer hecho con boostrap-->
+<div class="container-fluid">
+  <div class="row p-5 pb-2 bg-dark text-white">
+<!--Col xs y col md 6 es para pantallas medianas o grandes-->
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h3">Grupo Cero</p>          
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Cursos</p>
+        <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Pintura</a>
+        </div>
+        <div class="mb-2">
+            <a class="text-secondary text-decoration-none" href="#">Escultura</a>  
+        </div>
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Resposteria</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Tejido</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+            <a class="text-secondary text-decoration-none" href="#">Orfebrería</a>
+        </div> 
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+        <p class="h5 mb-3">Links</p>
+        <div class="mb-2"><!--Margen-->
+          <a class="text-secondary text-decoration-none" href="#">Terms & Conditions</a>
+        </div> 
+        <div class="mb-2"><!--Margen-->
+          <a class="text-secondary text-decoration-none" href="#">Politicas de privacidad</a>
+        </div>     
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="h5 mb-3">Contacto</p>       
+          <div class="mb-2"><!--Margen-->
+              <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+          </div>    
+          <div class="mb-2"><!--Margen-->
+              <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+          </div>  
+      </div>
+      <div class="col-xs-12 pt-4">
+          <p class="text-white text-center">Copyrigth - All rights reserved 2022</p>
+      </div>
+  </div>
 </div>
-
-<!-- Array de objetos -->
-<script>
-    const productos = [
-    {nombre : 'Platanos', valor:500},
-    {nombre : 'Platanos', valor:500},
-    {nombre : 'Platanos', valor:500},
-    {nombre : 'Platanos', valor:500},
-    {nombre : 'Platanos', valor:500},
-    {nombre : 'Platanos', valor:500},
-    ]
-
-
-    const formulario = document.querySelector('#formulario');
-    const boton = document.querySelector('#boton'); 
-    const resultado = document.querySelector('#resultado');
-
-    const filtrar =()=>{
-        //console.log(formulario.value);
-        resultado.innerHTML = '';
-
-        const texto = formulario.value.toLowerCase();
-        //Recorrido con ciclo for, donde guardaremos los pedidos
-        for(let producto of productos){
-
-            let nombre = producto.nombre.toLowerCase();
-            //El index retorna en caso de que el producto exista, de lo contrario va a retornar
-            if(nombre.indexOf(texto) !== -1){
-                resultado.innerHTML += `
-                <li>${producto.nombre} - valor: ${producto.valor}</li>
-                `
-            }
-        }
-
-        if(resultado.innerHTML === ''){
-            resultado.innerHTML += `
-            <li>Producto no encontrado... </li>
-            `
-        }
-    }
-
-    boton.addEventListener('click', filtrar)
-    formulario.addEventListener('keyup', filtrar)
-
-    filtrar();
-    
-</script>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
